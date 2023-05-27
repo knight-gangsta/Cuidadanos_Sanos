@@ -26,7 +26,7 @@ namespace Ciudadanos_Sano
 
 			// Agregando el contexto Ciudadano Sano a la aplicación
 			builder.Services.AddDbContext<SanoContext>(options =>
-				options.UseSqlServer(builder.Configuration.GetConnectionString("CSanoDB"))
+				options.UseSqlServer(builder.Configuration.GetConnectionString("SanoContext"))
 			);
 
 			var app = builder.Build();

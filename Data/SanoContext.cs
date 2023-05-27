@@ -6,7 +6,7 @@ namespace Ciudadanos_Sanos.Data
 {
 	public class SanoContext : DbContext
 	{
-		public SanoContext(DbContextOptions options) : base(options)
+		public SanoContext(DbContextOptions<SanoContext> options) : base(options)
 		{
 
 		}
