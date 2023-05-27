@@ -1,4 +1,8 @@
-namespace Ciudadano_Sanos
+using Microsoft.EntityFrameworkCore;
+using Ciudadanos_Sanos.Data;
+
+
+namespace Ciudadanos_Sano
 {
 	public class Program
 	{
@@ -8,6 +12,22 @@ namespace Ciudadano_Sanos
 
 			// Add services to the container.
 			builder.Services.AddRazorPages();
+
+			builder.Services.AddAuthentication(options =>
+			{
+				options.DefaultAuthenticateScheme = "MyCookieAuth";
+				options.DefaultChallengeScheme = "MyCookieAuth";
+			})
+			.AddCookie("MyCookieAuth", options =>
+			{
+				options.Cookie.Name = "MyCookieAuth";
+				options.LoginPath = "/Accounts/Login";
+			});
+
+			// Agregando el contexto Ciudadano Sano a la aplicación
+			builder.Services.AddDbContext<SanoContext>(options =>
+				options.UseSqlServer(builder.Configuration.GetConnectionString("CSanoDB"))
+			);
 
 			var app = builder.Build();
 
@@ -23,6 +43,8 @@ namespace Ciudadano_Sanos
 			app.UseStaticFiles();
 
 			app.UseRouting();
+
+			app.UseAuthentication(); // Coloca esta línea antes de app.UseAuthorization()
 
 			app.UseAuthorization();
 

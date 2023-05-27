@@ -1,0 +1,27 @@
+﻿@page
+@model Ciudadanos_Sano.Pages.Accounts.IndexModel
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<h1>Lista de Correos Corporativos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Correo</th>
+            <th>Contraseña Encriptada</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.Usuarios)
+        {
+            <tr>
+                <td>@usuario.IdUsuario</td>
+                <td>@usuario.Correo</td>
+                <td>@usuario.Clave</td>
+            </tr>
+        }
+    </tbody>
+</table>

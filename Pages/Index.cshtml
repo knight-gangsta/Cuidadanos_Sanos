@@ -1,10 +1,88 @@
-﻿@page
+﻿age
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        
+    }
+
+    .fila {
+       display: flex;
+        flex-direction: table;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        margin: 0
+        padding: 0;
+    }
+
+    .columna {
+        width: 33%;
+        padding-right: 5px;
+    }
+
+    img {
+        /* Para que sea responsiva */
+        width: 100%;
+        border-radius: 10%;
+        //box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        transform: translate(1) translate(0, 0);
+        transition: transform 225ms, box-shadow 225ms;
+    }
+
+    img:hover {
+        transform: scale(1.05) translate(0, -0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    img:active {
+        transform: scale(1) translate(0, 0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+        height: 30px;
+        background-color:white ;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 5px 10px;
+    }
+</style>
+
+
+
+<body style="background-image:url('img/Fondo.png'); background-position:center center; background-repeat:no-repeat; background-size:cover;">
+    <div class="text-center">
+        <h1 class="display-4"> </h1>
+        <p></p>
+    </div>
+
+    <div class="fila">
+        <div class="columna">
+            <a href="Pacientes">
+            <img src="/img/Imagen3.png">
+        </div>
+        <div class="columna">
+            <a href="RegistroCitas">
+            <img src="/img/imagen1.png">
+        </div>
+        <div class="columna">
+            <a href="Consulta">
+            <img src="/img/imagen2.png">
+        </div>
+    </div>
+
+    <footer>
+        <!-- Contenido del footer -->
+    </footer>
+</body>

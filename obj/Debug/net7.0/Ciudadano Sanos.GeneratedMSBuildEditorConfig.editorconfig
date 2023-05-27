@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Accounts/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Accounts/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudHNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Consulta/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
