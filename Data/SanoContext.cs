@@ -8,7 +8,7 @@ namespace Ciudadanos_Sanos.Data
 	{
 		public SanoContext(DbContextOptions<SanoContext> options) : base(options)
 		{
-
+			Database.Migrate();
 		}
 		public DbSet<Medico> Medico { get; set; }
 		public DbSet<Paciente> Paciente { get; set; }
