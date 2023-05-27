@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Consulta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/C\# LENGUAJE INFORMATICA/Ciudadano Sanos/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

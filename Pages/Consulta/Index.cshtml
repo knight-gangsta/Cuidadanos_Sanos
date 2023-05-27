@@ -1,0 +1,27 @@
+﻿@page
+@model Ciudadanos_Sanos.Pages.ConsultaModel
+@{
+    ViewData["Title"] = "Consulta";
+}
+
+<h1>Consulta de Citas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Nombre Paciente</th>
+            <th>Nombre Médico</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cita in Model.Citas)
+        {
+            <tr>
+                <td>@cita.Fecha</td>
+                <td>@cita.NombrePaciente</td>
+                <td>@cita.NombreMedico</td>
+            </tr>
+        }
+    </tbody>
+</table>
