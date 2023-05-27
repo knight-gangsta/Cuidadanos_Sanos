@@ -1,0 +1,8 @@
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.csproj.AssemblyReference.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.AssemblyInfoInputs.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.AssemblyInfo.cs
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.csproj.CoreCompileInputs.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.MvcApplicationPartsAssemblyInfo.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.RazorAssemblyInfo.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.RazorAssemblyInfo.cs
