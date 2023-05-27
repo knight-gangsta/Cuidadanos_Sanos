@@ -1,0 +1,61 @@
+﻿@page
+@model Ciudadanos_Sanos.Pages.Medicos.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .input-wrapper input {
+        background-color: #eee;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 13em;
+        border-radius: 1rem;
+        color: black;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+
+    .input-wrapper input:focus {
+        outline-color: lightcoral;
+    }
+</style>
+
+<h1>Ingresar Informacion</h1>
+
+<h4>del Medico</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Medico.Nombre_Completo" class="control-label"></label>
+                <div class="input-wrapper">
+                    <input asp-for="Medico.Nombre_Completo" />
+                </div>
+                <span asp-validation-for="Medico.Nombre_Completo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Medico.Cargo" class="control-label"></label>
+                <div class="input-wrapper">
+                    <input asp-for="Medico.Cargo" />
+                </div>
+                <span asp-validation-for="Medico.Cargo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Medico.CorreoCo" class="control-label"></label>
+                <div class="input-wrapper">
+                    <input asp-for="Medico.CorreoCo" />
+                </div>
+                <span asp-validation-for="Medico.CorreoCo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Crear" class="btn btn-success" />
+                <a asp-page="./Index" class="btn btn-primary">Volver a la lista</a>
+            </div>
+        </form>
+    </div>
+</div>
