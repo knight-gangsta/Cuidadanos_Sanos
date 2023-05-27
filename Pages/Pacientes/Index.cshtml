@@ -1,0 +1,55 @@
+﻿@page
+@model Ciudadanos_Sanos.Pages.Pacientes.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pacientes</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente[0].Cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente[0].Nombre_Completo)
+            </th>            
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente[0].Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paciente[0].Correo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Paciente)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre_Completo)
+                </td>                
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-page="Create" class="btn btn-success">Ingresar Nuevo Paciente</a>
+</p>
