@@ -1,22 +1,118 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+li {
+    border: none;
+    background-color: whitesmoke;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform: translate(1) translate(0, 0);
+    transition: transform 225ms, box-shadow 225ms;
+}
+
+    li:hover {
+        transform: scale(1.05) translate(0, -0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    li:active {
+        transform: scale(1) translate(0, 0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+#logoutButton {
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform: translate(1) translate(0, 0);
+    transition: transform 225ms, box-shadow 225ms;
+}
+
+    #logoutButton:hover {
+        transform: scale(1.05) translate(0, -0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    #logoutButton:hover {
+        transform: scale(1) translate(0, 0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+#login {
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform: translate(1) translate(0, 0);
+    transition: transform 225ms, box-shadow 225ms;
+}
+
+    #login:hover {
+        transform: scale(1.05) translate(0, -0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    #login:hover {
+        transform: scale(1) translate(0, 0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+#Register {
+    border: none;
+    background-color: springgreen;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform: translate(1) translate(0, 0);
+    transition: transform 225ms, box-shadow 225ms;
+}
+
+    #Register:hover {
+        transform: scale(1.05) translate(0, -0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+    }
+
+    #Register:hover {
+        transform: scale(1) translate(0, 0.15rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
