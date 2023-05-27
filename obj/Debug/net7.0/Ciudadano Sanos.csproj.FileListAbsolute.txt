@@ -6,3 +6,71 @@ G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.cspr
 G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.MvcApplicationPartsAssemblyInfo.cache
 G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.RazorAssemblyInfo.cache
 G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.RazorAssemblyInfo.cs
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\appsettings.Development.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\appsettings.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.staticwebassets.runtime.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.exe
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.deps.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.runtimeconfig.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Ciudadano Sanos.pdb
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Azure.Core.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Azure.Identity.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Memory.Data.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets\msbuild.Ciudadano Sanos.Microsoft.AspNetCore.StaticWebAssets.props
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets\msbuild.build.Ciudadano Sanos.props
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Ciudadano Sanos.props
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Ciudadano Sanos.props
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets.pack.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets.build.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\staticwebassets.development.json
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\scopedcss\bundle\Ciudadano Sanos.styles.css
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\scopedcss\projectbundle\Ciudadano Sanos.bundle.scp.css
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.csproj.CopyComplete
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\refint\Ciudadano Sanos.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.pdb
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\Ciudadano Sanos.genruntimeconfig.cache
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\obj\Debug\net7.0\ref\Ciudadano Sanos.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+G:\C# LENGUAJE INFORMATICA\Ciudadano Sanos\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
