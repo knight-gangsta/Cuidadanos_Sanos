@@ -1,0 +1,46 @@
+﻿@page
+@model Ciudadanos_Sanos.Pages.Medicos.IndexModel
+@{
+	ViewData["Title"] = "IndexMedicos";
+}
+<h1>Medicos</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicos[0].Nombre_Completo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicos[0].Cargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medicos[0].CorreoCo)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var medico in Model.Medicos)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => medico.Nombre_Completo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => medico.Cargo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => medico.CorreoCo)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@medico.Id" class="btn btn-warning">Editar</a>
+                    <a asp-page="./Delete" asp-route-id="@medico.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    <a asp-page="Create" class="btn btn-success">Ingresar Nuevo Medico</a>
+</p>
